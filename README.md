@@ -2,6 +2,7 @@ Personal dotfiles for MangoWM and a bunch of applications
 
 ### Applications:
 
+<samp>
 compositor: mangowm
 top bar: waybar
 notifications: dunst
@@ -23,6 +24,7 @@ firefox: Manrope
 [neovim theme](https://github.com/2besita/echidna.nvim.git)
 
 (Scripts you see on mango keymaps are not mine, the owner asked me to not add them here :p)
+</samp>
 
 ### Showcase
 ![Main desktop with fastfetch and dunst](./assets/desktop.png)
