@@ -3,27 +3,27 @@ Personal dotfiles for MangoWM and a bunch of applications
 ### Applications:
 
 <samp>
-compositor: mangowm
-top bar: waybar
-notifications: dunst
-terminal: foot
-terminal stuff: starship, fastfetch, tmux
-shell: fish
-browser: firefox
-editor: neovim
-application launcher: fuzzel
-pdf and image viewer: zathura
-music player: rmpc
+compositor: mangowm<br/>
+top bar: waybar<br/>
+notifications: dunst<br/>
+terminal: foot<br/>
+terminal stuff: starship, fastfetch, tmux<br/>
+shell: fish<br/>
+browser: firefox<br/>
+editor: neovim<br/>
+application launcher: fuzzel<br/>
+pdf and image viewer: zathura<br/>
+music player: rmpc<br/>
 <br/>
 <br/>
 
-wallpaper daemon: awww
-terminal font: Mononoki Nerd Font Mono
-waybar, dunst, etc: Terminess Nerd Font Mono
-firefox: Manrope
-[neovim theme](https://github.com/2besita/echidna.nvim.git)
+wallpaper daemon: awww<br/>
+terminal font: Mononoki Nerd Font Mono<br/>
+waybar, dunst, etc: Terminess Nerd Font Mono<br/>
+firefox: Manrope<br/>
+[neovim theme](https://github.com/2besita/echidna.nvim.git)<br/>
 
-(Scripts you see on mango keymaps are not mine, the owner asked me to not add them here :p)
+(Scripts you see on mango keymaps are not mine, the owner asked me to not add them here :p)<br/>
 </samp>
 
 ### Showcase
