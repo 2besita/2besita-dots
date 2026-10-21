@@ -1,0 +1,57 @@
+" theme
+set default-bg              "#212020"
+set default-fg              "#f2f2f2"
+
+set statusbar-bg            "#252525"
+set statusbar-fg            "#f2f2f2"
+
+set inputbar-bg             "#252525"
+set inputbar-fg             "#f2f2f2"
+
+set notification-error-bg   "#252525"
+set notification-error-fg   "#d93240"
+
+set notification-warning-bg "#252525"
+set notification-warning-fg "#d93240"
+
+set highlight-color         "#c3d9ac"
+set highlight-active-color  "#9ba683"
+
+set completion-bg           "212020"
+set completion-fg           "#f2f2f2"
+set completion-highlight-fg "#212020"
+set completion-highlight-bg "#c3d9ac"
+set completion-group-bg     "#212020"
+set completion-group-fg     "#f2f2f2"
+
+set notification-bg         "#f2f2f2"
+set notification-fg         "#d9d9d9"
+
+set recolor                 "true"
+set recolor-lightcolor      "#212020"
+set recolor-darkcolor       "#c3d9ac"
+set recolor-reverse-video   "true"
+set recolor-keephue         "false"
+
+" Clipboard
+set selection-clipboard clipboard
+
+" Search
+set incremental-search true
+set search-hadjust true
+
+" Autoadjust
+set adjust-open width
+
+" Typography
+set font "Terminess Nerd Font Mono 12"
+
+set page-v-padding 30
+set page-h-padding 30
+
+set show-recent 0
+set continuous-hist-save "true"
+
+set adjust-open "width"
+
+set default-zoom 85

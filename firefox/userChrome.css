@@ -1,0 +1,15 @@
+* { border-radius: 0px ! important; }
+.tabbrowser-tab .tab-icon-overlay {
+    display: none !important;
+}
+
+#urlbar, #urlbar-container {
+min-width: 250px !important;
+max-width: 550px !important;
+ margin: 0 auto !important;
+}
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+#urlbar-container {
+  text-align: center !important;
+}

@@ -1,0 +1,140 @@
+@import url('./themes/echidna.css');
+
+* {
+    font-family: "Terminess Nerd Font Mono";
+}
+
+window#waybar {
+    background: none;
+}
+
+#workspaces {
+    background: @surface;
+    color: @on-surface;
+    margin: 30px 5px 10px 32px;
+    border: 0px solid @accent;
+}
+
+#workspaces button {
+    color: @on-surface;
+    padding: 0px 12px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#workspaces button box > *:not(:nth-child(2)) image {
+    -gtk-icon-transform: scale(1);
+    padding: 0px 2px;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+#workspaces button.active {
+    font-size: 18px;
+    padding: 0px 12px;
+    color: @accent;
+    background: @surface;
+}
+
+#workspaces button:hover {
+    color: @accent;
+    background: @surface;
+    transition: all 0.5s ease
+}
+
+/* #workspaces .workspace-label { */
+/*     margin-right: 12px; */
+/* } */
+
+/* #workspaces .workspace-label:last-child { */
+/*     margin-right: 0px; */
+/* } */
+
+#tray {
+    background: @surface;
+    margin: 30px 5px 10px;
+    padding: 0px 6px;
+    border: 0px solid @accent;
+}
+
+#custom-dunst {
+    background: @surface;
+    color: @accent;
+    padding: 0px 6px;
+    margin: 30px 20px 10px 5px;
+    font-size: 18px;
+    border: 0px solid @accent;
+}
+
+#pulseaudio {
+    background: @surface;
+    color: @on-surface;
+    padding: 0px 12px;
+    margin: 30px 32px 10px 5px;
+    font-size: 18px;
+    border: 0px solid @accent;
+}
+
+#clock-pill {
+    background: @surface;
+    margin: 30px 5px 10px;
+    border: 0px solid @accent;
+}
+
+#clock.date {
+    background: @surface;
+    color: @on-surface;
+    padding: 0px 12px;
+    margin: 4px 3px;
+    font-size: 18px;
+}
+
+#clock.time {
+    background: @accent;
+    color: @surface;
+    padding: 0px 12px;
+    margin: 4px 3px;
+    font-size: 18px;
+    border-radius:5px;
+}
+
+#cpu {
+    background: @surface;
+    color: @on-surface;
+    padding: 0px 12px;
+    margin: 4px 5px;
+    font-size: 18px;
+}
+
+#memory {
+    background: @surface;
+    color: @on-surface;
+    padding: 0px 12px;
+    margin: 4px 5px;
+    font-size: 18px;
+}
+
+
+#japanese {
+    background: @surface;
+    margin: 30px 5px 10px;
+    border: 0px solid @accent;
+}
+
+#custom-phrase {
+    background: @surface;
+    margin: 4px 5px;
+    font-size: 18px;
+    padding: 0px 5px;
+    color: @on-surface;
+}
+
+#custom-sam {
+    background: @accent;
+    margin: 4px 5px;
+    font-size: 18px;
+    padding: 0px 5px;
+    color: @surface;
+    border-radius: 5px;
+}

@@ -1,0 +1,87 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        // "source": "~/.config/fastfetch/13-13.png",
+        "type": "sixel",
+        "source": ".config/fastfetch/caesar.png",
+        "height": 16,
+        "chafa": {
+            "fgOnly": true,
+            "symbols": "braille"
+        },
+        "padding": {
+            "top": 0,
+            "right": 2,
+        },
+    },
+    "display": {
+        "separator": " ",
+        "color": {
+            "title": "magenta",
+            "keys": "blue"
+        }
+    },
+    "modules": [
+        "break",
+        {
+            "type": "title",
+            "format": "{6} @ {8}"
+        },
+        {
+            "type": "os",
+            "key": "system  ",
+            "format": "{name}"
+        },
+        {
+            "type": "kernel",
+            "key": "kernel  ",
+            "format": "{release}"
+        },
+        {
+            "type": "cpu",
+            "key": "cpu     ",
+            "format": "{name}"
+        },
+        {
+            "type": "gpu",
+            "key": "gpu     ",
+            "format": "{name}"
+        },
+        {
+            "type": "wm",
+            "key": "wm      ",
+            "format": "{pretty-name}"
+        },
+        {
+            "type": "terminal",
+            "key": "terminal",
+            "format": "{pretty-name}"
+        },
+        {
+            "type": "editor",
+            "key": "editor  ",
+            "format": "{name}"
+        },
+        {
+            "type": "shell",
+            "key": "shell   ",
+            "format": "{1}"
+        },
+        {
+            "type": "packages",
+            "key": "packages",
+            "format": "{nix-system} (system) {nix-user} (user)",
+        },
+        {
+            "type": "disk",
+            "key": "disk    ",
+            "format": "{1} / {2}"
+        },
+        {
+            "type": "colors",
+            "symbol": "square"
+        },
+        "break"
+    ]
+}
+

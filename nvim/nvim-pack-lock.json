@@ -1,0 +1,89 @@
+{
+  "plugins": {
+    "echidna.nvim": {
+      "rev": "353aa035fd979b3ac1cc47a4c1570a846e680051",
+      "src": "https://github.com/2besita/echidna.nvim.git"
+    },
+    "emiria.nvim": {
+      "rev": "c4d990de96dd36bee268918bc66a2f12265c0a2d",
+      "src": "file:///home/nora/tichel/neovim/emiria.nvim"
+    },
+    "export-colorscheme.nvim": {
+      "rev": "805bc285c9ba0e6da5c7c08fc89734f19d72e473",
+      "src": "https://github.com/jpe90/export-colorscheme.nvim.git"
+    },
+    "fzf-lua": {
+      "rev": "a306c293b37bd7c8c1e8e1e6c0d7d3d9c3de3f21",
+      "src": "https://github.com/ibhagwan/fzf-lua.git"
+    },
+    "gitsigns.nvim": {
+      "rev": "fd780920613e541cbdfac41bf711583ed49f9249",
+      "src": "https://github.com/lewis6991/gitsigns.nvim.git"
+    },
+    "hesperus.nvim": {
+      "rev": "4a8a59c8ac9ec010bd0acba7f415f19af9ac5b37",
+      "src": "https://github.com/hesperus-theme/hesperus.nvim.git"
+    },
+    "indent-blankline.nvim": {
+      "rev": "f1e186e44d3b7f9ae918008e2c28ce37c6023d2d",
+      "src": "https://github.com/lukas-reineke/indent-blankline.nvim"
+    },
+    "lualine.nvim": {
+      "rev": "221ce6b2d999187044529f49da6554a92f740a96",
+      "src": "https://github.com/nvim-lualine/lualine.nvim"
+    },
+    "mini.nvim": {
+      "rev": "4d84086ab334a88201b803d11d1086406fe7e43d",
+      "src": "https://github.com/nvim-mini/mini.nvim.git"
+    },
+    "multicursor.nvim": {
+      "rev": "c574bfc1f7e63dfea3e64b8453c9f7c660127238",
+      "src": "https://github.com/jake-stewart/multicursor.nvim.git"
+    },
+    "nui.nvim": {
+      "rev": "10fc361835c856ba4233ef5ea135b919bf3dce97",
+      "src": "https://github.com/MunifTanjim/nui.nvim"
+    },
+    "nvim-autopairs": {
+      "rev": "3172f40c16563db871a58f20d205c710ad782311",
+      "src": "https://github.com/windwp/nvim-autopairs.git"
+    },
+    "nvim-biscuits": {
+      "rev": "d93dcdee3a3dfd5101785447658e744f153957db",
+      "src": "https://github.com/code-biscuits/nvim-biscuits.git"
+    },
+    "nvim-colorizer.lua": {
+      "rev": "a065833f35a3a7cc3ef137ac88b5381da2ba302e",
+      "src": "https://github.com/norcalli/nvim-colorizer.lua"
+    },
+    "nvim-treesitter": {
+      "rev": "29212d826054bb2948fa9d3a99eca9bf6a050eb2",
+      "src": "https://github.com/nvim-treesitter/nvim-treesitter",
+      "version": "'main'"
+    },
+    "nvim-web-devicons": {
+      "rev": "ec309a0eaff6ea967e58c275996155ab5c16938d",
+      "src": "https://github.com/nvim-tree/nvim-web-devicons"
+    },
+    "plenary.nvim": {
+      "rev": "74b06c6c75e4eeb3108ec01852001636d85a932b",
+      "src": "https://github.com/nvim-lua/plenary.nvim"
+    },
+    "real-icons.nvim": {
+      "rev": "9c13a7a3f3072fbceb847c8db15e941b60ea666f",
+      "src": "https://github.com/Mirsmog/real-icons.nvim.git"
+    },
+    "snacks.nvim": {
+      "rev": "882c996cf28183f4d63640de0b4c02ec886d01f2",
+      "src": "https://github.com/folke/snacks.nvim"
+    },
+    "transparent.nvim": {
+      "rev": "792b1d6caff49ba0c166921d78495273d25a7edd",
+      "src": "https://github.com/xiyaowong/transparent.nvim.git"
+    },
+    "volt": {
+      "rev": "620de1321f275ec9d80028c68d1b88b409c0c8b1",
+      "src": "https://github.com/nvzone/volt"
+    }
+  }
+}

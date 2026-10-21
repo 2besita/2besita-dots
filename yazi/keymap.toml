@@ -1,0 +1,3 @@
+[[mgr.prepend_keymap]]
+on = "<C-w>"
+run = "shell -- ~/.config/yazi/pape.sh %h"

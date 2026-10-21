@@ -1,0 +1,90 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 40,
+    "exclusive": true,
+    "margin-top": 0,
+    "margin-left": 0,
+    "margin-right": 0,
+    "margin-bottom": -10,
+    "reload_style_on_change": true,
+    "include": [
+        "~/.config/waybar/modules.jsonc"
+    ],
+    "modules-left": [
+        "ext/workspaces",
+        "group/clock-pill",
+        "custom/dunst",
+    ],
+
+    "modules-center": [
+    ],
+
+    "modules-right": [
+        "group/japanese",
+        "tray",
+        "pulseaudio",
+    ],
+
+    "group/clock-pill": {
+        "orientation": "horizontal",
+        "modules": [
+            "clock#date",
+            "clock#time",
+        ],
+    },
+
+    "group/japanese": {
+        "orientation": "horizontal",
+        "modules": [
+            "custom/phrase",
+            "custom/sam",
+        ],
+    },
+
+    "ext/workspaces": {
+        "format": "{icon}",
+        "on-click": "activate",
+        "format-icons": {
+            "active": "󱓻",
+            "1": "一",
+            "2": "二",
+            "3": "三",
+            "4": "四",
+            "5": "五",
+            "6": "六",
+            "7": "七",
+            "8": "八",
+            "9": "九",
+            "10": "十"
+        }
+    },
+
+    "custom/sam": {
+        "format": " (のへの) ",
+        "tooltip": false
+    },
+
+    "custom/phrase": {
+        "format": "「『愛してる』も...少しは分かるようになったのです」",
+        "tooltip": false
+    },
+
+    "tray": {
+        "on-click": "toggle",
+        "tooltip": true,
+        "spacing": 10,
+        "icon-size": 16,
+        "icons-size-miltiplier": 1,
+        "show-passive-items": false
+    },
+
+    "custom/dunst": {
+        "format": "{}",
+        "interval": "once",
+        "signal": 8,
+        "exec": "~/.config/waybar/dunst.sh",
+        "on-click": "~/.config/waybar/dunst.sh toggle",
+        "tooltip": true
+    }
+}
